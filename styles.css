@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(224, 224, 224);
+    margin: 0;
+}
+
+.barra-arriba {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.barra-arriba h1{
+    margin: auto;
+    width: 600px;
+    font-size: 40px;
+    text-align: left;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+
+.post{
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    height: 510px;
+    width: 600px;
+    /*background-color: white;*/
+}
+
+.post .post-header{
+    font-size: 11px;
+    display: flex;
+    height: 45px;
+    font-family: "Poppins", serif;
+    background-color: white;
+}
+
+.post .post-header .title h2{
+    font-weight: bold;
+    padding: 10px 0px 0px 10px;
+    position: relative;
+    width: 540px;
+    margin: 0;
+}
+
+.post .post-header .date h2{
+    padding-top: 10px;
+    position: relative;
+    margin: 0;
+    color: rgb(177, 177, 177);
+}
+
+.post .post-image{
+    height: 400px;
+}
+
+.post .post-image img{
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+}
+
+.post .post-description{
+    background-color: white;
+}
+
+.post .post-description p{
+    position: relative;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    margin: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    max-width: 90%;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
